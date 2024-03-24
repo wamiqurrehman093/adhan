@@ -1,0 +1,43 @@
+@font-face {
+    font-family: urdu_font;
+    src: url("Fonts/Urdu/AA_Sameer_Almas_Regular/AA_Sameer_Almas_Regular.ttf");
+}
+
+@font-face {
+    font-family: arabic_font;
+    src: url("Fonts/Arabic/A_Arslan_Wessam_A_A_Arslan_Wessam_A/A_Arslan_Wessam_A_A_Arslan_Wessam_A.ttf");
+}
+
+[lang~="Arabic"], [lang~="Urdu"] {
+    
+}
+
+[lang~="Arabic"] {
+    font-family: arabic_font;
+}
+
+[lang~="Urdu"] {
+    font-family: urdu_font;
+    font-weight: normal;
+}
+
+[lang~="English"] {
+    font-family: cursive;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(220, 230, 255);
+}
+
+header, .heading {
+    border: 2px solid black;
+    padding: 8px 16px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+h1, h2 {
+    margin: 0px;
+}
